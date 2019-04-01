@@ -8,7 +8,6 @@ const app = dialogflow();
 const Welcome_Intent = 'Default Welcome Intent';
 const Fallback_Intent = 'Default Fallback Intent';
 const Get_Joke_Intent = 'Tell Me A Joke Intent';
-const Joke_Type_Entity = 'JokeTypeEntity';
 
 app.intent(Welcome_Intent, (conv) => {
 	conv.ask("Well, hello there, would you like to hear a joke?");
